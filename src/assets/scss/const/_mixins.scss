@@ -1,0 +1,56 @@
+/*_mixins.scss
+SCSS file for all mixin elements.
+
+@file _mixins.scss
+@path /assets/scss/_mixins.scss
+@version 2022-02-02
+*/
+
+/* Placeholder css property */
+@mixin placeholder {
+    &::placeholder {
+        @content;
+    }
+
+    &:-ms-input-placeholder {
+        @content;
+    }
+
+    &::-ms-input-placeholder {
+        @content;
+    }
+}
+
+/* fadeIn and fadeOut css property end */
+/* hover, focus, active css property Begin */
+@mixin hover {
+    &:hover {
+        @content;
+    }
+}
+
+@mixin focus {
+    &:focus {
+        outline: 2px dashed transparent;
+        @content;
+    }
+}
+
+@mixin hover-focus {
+    &:hover,
+    &:focus {
+        @content;
+    }
+}
+
+@mixin hover-focus-active {
+
+    &:hover,
+    &:focus,
+    &.active {
+        @content;
+    }
+}
+
+
+/* hover, focus, active css property end*/

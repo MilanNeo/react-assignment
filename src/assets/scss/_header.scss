@@ -1,0 +1,29 @@
+/*
+_header.scss SCSS
+file for all Header/Navigation Section elements.
+@file _header.scss
+@path /assets/scss/_header.scss
+@version 2022-02-02
+*/
+
+/* Css for wp admin bar is actived end */
+.header {
+    @include media-breakpoint-up(sm) {}
+
+    @include media-breakpoint-up(md) {}
+
+    @include media-breakpoint-up(lg) {}
+
+    @include media-breakpoint-up(xl) {}
+}
+
+.logo {
+
+    a {
+        display: block;
+
+        @include focus {
+            /* outline-color: $light-navy;*/
+        }
+    }
+}

@@ -1,0 +1,41 @@
+/**_variables.scss
+SCSS file for all varibles.
+@file _variables.scss
+@path /assets/scss/_variables.scss
+@version 2022-02-02
+*/
+
+
+/* Font family */
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+$base-font: "Roboto", sans-serif;
+$body-bg: #FFFFFF;
+
+/* Colors variables */
+
+$white: #FFFFFF !default;
+//$theme-colors: ("primary": #0074d9, "danger": #ff4136);
+
+/* Transition speeds variables */
+
+$trans-slow: 0.6s;
+$trans-med: 0.4s;
+$trans-fast: 0.2s;
+
+/* Box shadow variables */
+
+$normal-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+
+/* Radius variables */
+
+$radios:100px;
+$radios-5:5px;
+
+/* Images path variable */
+
+$img-path:"../images";
+
+/*@import "node_modules/bootstrap/scss/bootstrap";*/
